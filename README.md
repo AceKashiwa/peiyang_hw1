@@ -2,7 +2,7 @@
 
 ## 行列式求解
 
-对方阵 $ A = (a_{ij})_n $ 做如下初等变换
+对方阵 $A = (a_{ij})_n$ 做如下初等变换
 
 $$
 \begin{pmatrix}
@@ -42,20 +42,21 @@ a_{n2} - \frac{a_{n1} \times a_{12}}{a_{11}} & \cdots & a_{nn} - \frac{a_{n1} \t
 \end{vmatrix}
 $$
 
-$ n = 1 $ 时，
+$n = 1$ 时，
+
 $$
 \begin{vmatrix}A\end{vmatrix}
 = a_{11}
 $$
 
-> DEBUG: 当 $ a_{11} = 0 $ 时，进行互换操作，使得满足 $ a_{11} \neq 0 $ 行列式的值变号；若不存在 $ a_{11} \neq 0 $，则行列式值为0。
+> DEBUG: 当 $a_{11} = 0$ 时，进行互换操作，使得满足 $a_{11} \neq 0$ 行列式的值变号；若不存在 $a_{11} \neq 0$，则行列式值为0。
 
 ## 逆矩阵求解
 
-原理：$ \begin{array}{c:c} (A & E) \end{array} \xrightarrow[]{仅有限次初等行变换} \begin{array}{c:c} (E & A^{-1}) \end{array} $
+原理：$\begin{array}{c:c} (A & E) \end{array} \xrightarrow[]{仅有限次初等行变换} \begin{array}{c:c} (E & A^{-1}) \end{array}$
 
 操作：构造矩阵进行消元
 
 ## 秩的求解
 
-与[text](doc/thinking.md)中思路一致
+与[thinking.md](doc/thinking.md)中思路一致
