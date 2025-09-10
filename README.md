@@ -53,7 +53,13 @@ $$
 
 ## 逆矩阵求解
 
-原理：$\begin{array}{c:c} (A & E) \end{array} \xrightarrow[]{仅有限次初等行变换} \begin{array}{c:c} (E & A^{-1}) \end{array}$
+原理：
+
+$$
+\begin{array}{c:c} (A & E) \end{array}
+\xrightarrow[]{仅有限次初等行变换}
+\begin{array}{c:c} (E & A^{-1}) \end{array}
+$$
 
 操作：构造矩阵进行消元
 
