@@ -1,8 +1,29 @@
 # 解题思路
 
+## 矩阵加法
+
+![alt text](.assets/image.png)
+
+## 矩阵减法
+
+![alt text](.assets/image-1.png)
+
+## 矩阵乘法
+
+![alt text](.assets/image-2.png)
+![alt text](.assets/image-10.png)
+
+## 矩阵数乘
+
+![alt text](.assets/image-3.png)
+
+## 矩阵转置
+
+![alt text](.assets/image-4.png)
+
 ## 行列式求解
 
-对方阵 $A = (a_{ij})_n$ 做如下初等变换
+对方阵 $`A = (a_{ij})_n`$ 做如下初等变换
 
 $$
 \begin{pmatrix}
@@ -51,6 +72,8 @@ $$
 
 > DEBUG: 当 $a_{11} = 0$ 时，进行互换操作，使得满足 $a_{11} \neq 0$ 行列式的值变号；若不存在 $a_{11} \neq 0$，则行列式值为0。
 
+![alt text](.assets/image-5.png)
+
 ## 逆矩阵求解
 
 原理：
@@ -63,6 +86,15 @@ $$
 
 操作：构造矩阵进行消元
 
+![alt text](.assets/image-6.png)
+![alt text](.assets/image-9.png)
+
 ## 秩的求解
 
 与[thinking.md](doc/thinking.md)中思路一致
+
+![alt text](.assets/image-7.png)
+
+## 矩阵的迹
+
+![alt text](.assets/image-8.png)
